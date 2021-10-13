@@ -1,0 +1,141 @@
+body{
+background-color: white;
+	}
+#container{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+}
+	
+header{
+	background-color: #f0e4e4;
+	padding: 40px;
+}
+	
+header h2{
+	margin: 0;
+	padding-left: 14px;
+	padding-top: 20;
+	padding-bottom: 10;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
+
+.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #333;
+}
+
+footer{
+	background-color: #333;
+	padding: 16px;
+	display: flex;
+	justify-content: space-around;
+}
+footer p{
+	color: white;
+	font-size: 12px;
+
+}
+
+.yoga-pic {
+	width: 600px;
+	height: 350px;
+    clip-path: circle()
+}
+
+.journey-pic {
+	width: 500px;
+	height: 350px;
+	clip-path: circle();
+}
+
+.practice-pic {
+	width: 500px;
+	clip-path: circle();
+}
+
+.music-pic {
+	width: 350px;
+	clip-path: circle();
+}
+
+.about-pic {
+	width: 380px;
+	height: 340px;
+    clip-path: circle();
+}
+
+.two-column {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 40px;
+	background-color: #f0e4e4;
+}
+
+.two-column div{
+	background-color: #f0e4e4;
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+.button-wrapper {
+
+  text-align: center;
+  background-color: #f0e4e4;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.button-wrapper button {
+	background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+	color: #333;
+	cursor: pointer;
+	border: 2px solid black;
+	padding: 20px 25px;
+	margin: 10px;
+	
+}
+
+
+
+
+
